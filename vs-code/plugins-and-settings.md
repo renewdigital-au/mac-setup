@@ -9,7 +9,7 @@
 4. `GitLens — Git supercharged - eamodio.gitlens`
    - Eric Amodio
 5. `vscode-styled-components`
-  - Julien Poissonnier
+    - Julien Poissonnier
 6. `Live Server`
-  - Ritwick Dey
+    - Ritwick Dey
 
