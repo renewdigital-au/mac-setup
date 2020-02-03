@@ -16,7 +16,7 @@
 }
 ```
 
-#### `nocon` Console log snippets
+## `nocon` Console log snippets
 
 ```json
 {
@@ -29,7 +29,7 @@
 }
 ```
 
-#### `errhead` markdown headings for error doco
+## `errhead` markdown headings for error doco
 
 ```json
 {
@@ -53,6 +53,20 @@
 			"$4"
 		],
 		"description": "markdown template to document errors"
+	}
+}
+```
+
+## `expe` expect assertion
+```json
+{
+	"expect assertion": {
+		"scope": "javascript,typescript",
+		"prefix": "expe",
+		"body": [
+			"expect(true).toBe(false);"
+		],
+		"description": "expect assertion for jest tests etc"
 	}
 }
 ```
