@@ -26,6 +26,9 @@
   },
   "prettier.disableLanguages": [
     "markdown"
-  ]
+  ],
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false
 }
 ```
