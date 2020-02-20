@@ -1,4 +1,4 @@
-# VS Code Plugins
+# VS Code Extendsion (Plugins)
 
 1. `ES7 React/Redux/GraphQL/React-Native snippets - dsznajder.es7-react-js-snippets`
    - dsznajder
@@ -9,7 +9,8 @@
 4. `GitLens — Git supercharged - eamodio.gitlens`
    - Eric Amodio
 5. `vscode-styled-components`
-    - Julien Poissonnier
+  - Julien Poissonnier
 6. `Live Server`
-    - Ritwick Dey
-
+  - Ritwick Dey
+7. `GraphQL for VSCode`
+  - Kumar Harsh
