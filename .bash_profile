@@ -17,5 +17,7 @@ export PATH=~/.npm-packages/bin:$PATH
 NPM_PACKAGES=/Users/<second-username>/.npm-packages
 NODE_PATH="$NPM_PACKAGES/lib/node_modules:$NODE_PATH"
 
+export HOMEBREW_NO_ANALYTICS=1
+
 # Python
 alias python='python3'
