@@ -6,7 +6,7 @@ alias gs='git status'
 alias ll='ls -lah'
 alias dkr='docker'
 alias dkrmon='docker run -it -p 27017:27017 -v ~/data:/data/db mongo'
-alias fresh='source ~/.zprofile'
+alias fresh='source ~/.zshrc'
 alias gr="git for-each-ref --sort=committerdate refs/heads/ --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(color:red)%(objectname:short)%(color:reset) - %(contents:subject) - %(authorname) (%(color:green)%(committerdate:relative)%(color:reset))'"
 alias topy='top -o time -user $(whoami)'
 
