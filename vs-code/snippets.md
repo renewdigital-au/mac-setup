@@ -34,26 +34,29 @@
 ```json
 {
   "Setup markdown headings for error doco": {
-		"scope": "markdown",
-		"prefix": "errhead",
-		"body": [
-			"---",
-			"title: 'Title'",
-			"date: '2020-01-01'",
-			"author: 'Author Name",
-			"path: '/${TM_FILEPATH}'",
-			"---",
-			"",
-			"",
-			"## [ERROR$1/ISSUE]",
-			"$2",
-			"## [CODE]",
-			"$3",
-			"## [FIX]",
-			"$4"
-		],
-		"description": "markdown template to document errors"
-	}
+    "scope": "markdown",
+    "prefix": "errhead",
+    "body": [
+      "---",
+      "title: 'My Title'",
+      "date: '2020-01-01'",
+      "author: 'Author Name'",
+      "path: '/${TM_FILEPATH}'",
+      "---",
+      "",
+      "",
+      "## [ERROR/ISSUE]",
+      "$1",
+      "",
+      "## [CODE]",
+      "$2",
+      "",
+      "## [FIX]",
+      "$3",
+      ""
+    ],
+    "description": "markdown template to document errors"
+  }
 }
 ```
 
@@ -68,5 +71,28 @@
 		],
 		"description": "expect assertion for jest tests etc"
 	}
+}
+```
+
+## `ueff` useEffect hook with async/await funct call
+
+
+```json
+{
+  "useEffect hook with async/await funct call": {
+    "scope": "javascript,typescript",
+    "prefix": "ueff",
+    "body": [
+      "useEffect(() => {",
+      "const $1 = async () => {",
+      "// func contents",
+      "$2",
+      "}",
+      "// call await call here",
+      "const value = await $1();",
+      "}, [])"
+    ],
+    "description": "useEffect hook with async/await funct call"
+  }
 }
 ```
