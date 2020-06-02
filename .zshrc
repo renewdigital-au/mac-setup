@@ -20,5 +20,8 @@ NODE_PATH="$NPM_PACKAGES/lib/node_modules:$NODE_PATH"
 export PATH="$PATH:/Users/developer/flutter-dev/flutter/bin"
 export HOMEBREW_NO_ANALYTICS=1
 
+# zsh
+setopt auto_cd
+
 # Python
 alias python='python3'                      

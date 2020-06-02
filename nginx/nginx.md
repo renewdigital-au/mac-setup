@@ -26,7 +26,7 @@ sudo nginx -t
 Password:
 nginx: the configuration file /usr/local/etc/nginx/nginx.conf syntax is ok
 nginx: configuration file /usr/local/etc/nginx/nginx.conf test is successful
-developer@renews-MBP:~/repos/github/mac-setup$ 
+developer@MyMac:~/repos/github/mac-setup$ 
 ```
 
 - config file location on mac
