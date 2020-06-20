@@ -14,3 +14,6 @@
   - Ritwick Dey
 7. `GraphQL for VSCode`
   - Kumar Harsh
+8. `Bracket Pair Colorizer`
+  - CoenraadS
+  
