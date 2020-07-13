@@ -20,12 +20,14 @@
 
 ```json
 {
-  "Print to console": {
-    "scope": "javascript,typescript",
-    "prefix": "nocon",
-    "body": ["/* eslint-disable no-console */ console.log('$1');"],
-    "description": "Log output to console"
-  }
+	"Print to console": {
+		"scope": "javascript, javascriptreact, typescript, typescriptreact",
+		"prefix": "nocon",
+		"body": [
+			"/* eslint-disable no-console */ console.log('$1');"
+		],
+		"description": "Log output to console with eslint disabled"
+	}
 }
 ```
 
@@ -64,7 +66,7 @@
 ```json
 {
 	"expect assertion": {
-		"scope": "javascript,typescript",
+		"scope": "javascript, javascriptreact, typescript, typescriptreact",
 		"prefix": "expe",
 		"body": [
 			"expect(true).toBe(false);"
@@ -80,19 +82,19 @@
 ```json
 {
   "useEffect hook with async/await funct call": {
-    "scope": "javascript,typescript",
+    "scope": "javascript, javascriptreact, typescript,typescriptreact",
     "prefix": "ueff",
     "body": [
       "useEffect(() => {",
       "const $1 = async () => {",
-      "// func contents",
-      "$2",
+      "// api/promise to await",
+      "const value = await $2();",
       "}",
-      "// call await call here",
-      "const value = await $1();",
+      "// invoke wrapper function",
+      "$1();",
       "}, [])"
     ],
-    "description": "useEffect hook with async/await funct call"
+    "description": "useEffect hook with async wrapper to execute you await funct call"
   }
 }
 ```
