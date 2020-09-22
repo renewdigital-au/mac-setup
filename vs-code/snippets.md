@@ -98,3 +98,16 @@
   }
 }
 ```
+
+## `imsc` import styled component
+```json
+ "Print to console": {
+    "scope": "javascript, javascriptreact, typescript,typescriptreact",
+    "prefix": "imsc",
+    "body": [
+      "import styled from 'styled-components';"
+    ],
+    "description": "import styled components package"
+  }
+}
+```
