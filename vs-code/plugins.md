@@ -16,4 +16,7 @@
   - Kumar Harsh
 8. `Bracket Pair Colorizer`
   - CoenraadS
+9. `ESLint`
+  - Dirk Baeumer
+  - dbaeumer.vscode-eslint
   
