@@ -25,4 +25,7 @@ export HOMEBREW_NO_ANALYTICS=1
 setopt auto_cd
 
 # Python
-alias python='python3'                      
+alias python='python3'
+
+# zsh pwd prompt
+export PROMPT="%~$"
