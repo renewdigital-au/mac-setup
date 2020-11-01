@@ -10,6 +10,9 @@ alias fresh='source ~/.zshrc'
 alias gr="git for-each-ref --sort=committerdate refs/heads/ --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(color:red)%(objectname:short)%(color:reset) - %(contents:subject) - %(authorname) (%(color:green)%(committerdate:relative)%(color:reset))'"
 alias topy='top -o time -user $(whoami)'
 alias zshconf='vim ~/.zshrc'
+alias rmn='rm -rf node_modules/'
+alias ylist='yarn list --depth=0'
+alias ylinks='ll ~/.config/yarn/link/@myscope'
 
 export NVM_DIR="$HOME/.nvm"
   . "/usr/local/opt/nvm/nvm.sh"
