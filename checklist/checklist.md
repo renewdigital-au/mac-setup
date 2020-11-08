@@ -13,6 +13,11 @@
   - 1. CMD + SHIFT + H
   - 2. CMD+ArrowUp
   - 3. Drag to side bar
-6. 
-
+6. install jq json parser
+  - `brew install jq`
+7. Change TextEdit to no format
+  - `CMD` + `,`
+  - New Document >> select radio: `Plain text`
+8. Set screen shots to specific folder, follow link:
+  - [Screen shot to folder](../screen-shot-to-folder/screen-shot-to-folder.md)
 
