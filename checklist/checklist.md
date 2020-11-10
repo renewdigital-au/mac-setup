@@ -20,4 +20,6 @@
   - New Document >> select radio: `Plain text`
 8. Set screen shots to specific folder, follow link:
   - [Screen shot to folder](../screen-shot-to-folder/screen-shot-to-folder.md)
-
+9. Setup safari Developer menu
+  - [Safari setup](../safari/safari-setup.md)
+ 
