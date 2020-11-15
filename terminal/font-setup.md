@@ -1,4 +1,8 @@
-# Mac terminal font setup
+# Mac terminal and font setup
+
+## Set homebrew as default profile
+- On startup open new wiodow with profile:
+  - Dropmenu: `Homebrew`
 
 ## Change font size
 1. Open terminal

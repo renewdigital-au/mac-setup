@@ -28,5 +28,9 @@
 11. Install shift-it screen management
   - https://github.com/fikovnik/ShiftIt/releases
     - download from github release page.
-12. 
- 
+12. Setup terminal and fonts
+  - [Mac terminal and font setup](../terminal/font-setup.md)
+
+
+## corp software Setup
+1. MS Teams
