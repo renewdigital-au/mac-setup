@@ -12,7 +12,11 @@
 4. Select `Text` in `Segmented control` buttons
   - Click `Change..` button
   - Select font size say `18pt`
-5. **You must RESTART TERMINAL APP**
+5. Ensure Homebrew is the default
+  - If not select profile:
+    - Homebrew is selected
+    - Click default tab/button at the bottom of the list
+    - **You must RESTART TERMINAL APP**
 
 - If size is not what your after
   - test out other sizes while in terminal:

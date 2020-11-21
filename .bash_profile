@@ -9,6 +9,7 @@ alias dkrmon='docker run -it -p 27017:27017 -v ~/data:/data/db mongo'
 alias fresh='source ~/.bash_profile'
 alias gr="git for-each-ref --sort=committerdate refs/heads/ --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(color:red)%(objectname:short)%(color:reset) - %(contents:subject) - %(authorname) (%(color:green)%(committerdate:relative)%(color:reset))'"
 alias topy='top -o time -user $(whoami)'
+alias sct="cat package.json | jq '.scripts'"
 
 export NVM_DIR="$HOME/.nvm"
   . "/usr/local/opt/nvm/nvm.sh"

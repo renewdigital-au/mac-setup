@@ -30,7 +30,10 @@
     - download from github release page.
 12. Setup terminal and fonts
   - [Mac terminal and font setup](../terminal/font-setup.md)
-
+13. Virtual box setup for IE11
+  - [Virtual box setup for IE 11 testing](../virutual-box-setup-IE11/virutual-box-setup-IE11.md)
+14. copy aprac across
+  - [aprac](https://github.com/renewdigital-au/aprac)
 
 ## corp software Setup
 1. MS Teams
