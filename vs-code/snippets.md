@@ -111,3 +111,25 @@
   }
 }
 ```
+
+## `mnum` Markdown number points 1-10
+```json
+"Markdown numbers": {
+    "scope": "markdown, text",
+    "prefix": "mnum",
+    "body": [
+      "1. $1",
+      "2. $2",
+      "3. $3",
+      "4. $4",
+      "5. $5",
+      "6. $6",
+      "7. $7",
+      "8. $8",
+      "9. $9",
+      "10. $10"
+    ],
+    "description": "Create markdown number point 1-10"
+  }
+}
+```
