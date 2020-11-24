@@ -22,4 +22,7 @@
 10. `Project name in StatusBar`
   - mujichOk
   - mujichok.vscode-project-name-in-statusbar
+11. YAML 
+  - redhat.vscode-yaml
+  - Redhat
   

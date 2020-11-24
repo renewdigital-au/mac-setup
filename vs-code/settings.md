@@ -24,6 +24,11 @@
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
+  "[yaml]":  {
+		"editor.insertSpaces": true,
+		"editor.tabSize": 2,
+		"editor.autoIndent": false
+	},
   "prettier.disableLanguages": [
     "markdown"
   ],
