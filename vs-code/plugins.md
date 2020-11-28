@@ -25,4 +25,8 @@
 11. YAML 
   - redhat.vscode-yaml
   - Redhat
+12. Screen shot to Preview App
+ - CMD +SHIFT + 5
+ - Options >> Preview
+13. 
   
