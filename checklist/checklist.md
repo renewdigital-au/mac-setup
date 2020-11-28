@@ -34,6 +34,9 @@
   - [Virtual box setup for IE 11 testing](../virutual-box-setup-IE11/virutual-box-setup-IE11.md)
 14. copy aprac across
   - [aprac](https://github.com/renewdigital-au/aprac)
+15. If this is second mac user
+  - for npm globl installs
+    - [Second Mac user - npm global installs](../npm-global-second-user/npm-global-second-user.md)
 
 ## corp software Setup
 1. MS Teams
