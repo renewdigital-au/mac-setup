@@ -37,6 +37,6 @@
 15. If this is second mac user
   - for npm globl installs
     - [Second Mac user - npm global installs](../npm-global-second-user/npm-global-second-user.md)
-
+16. [SSH setup](../ssh-setup/ssh-setup.md)
 ## corp software Setup
 1. MS Teams
