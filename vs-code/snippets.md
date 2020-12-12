@@ -133,3 +133,18 @@
   }
 }
 ```
+
+## `curp` Get current file path
+
+```json
+{
+	"Print to console": {
+		"scope": "javascript,typescript,markdown",
+		"prefix": "curp",
+		"body": [
+			"${TM_FILEPATH}$1",
+		],
+		"description": "Get current file path."
+	}
+}
+```
