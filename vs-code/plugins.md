@@ -4,6 +4,15 @@
    - dsznajder
 2. `Prettier - Code formatter`
    - Esben Petersen
+   - Ensure you projects have `.prettierrc` like:
+```json
+{
+  "trailingComma": "none",
+  "tabWidth": 2,
+  "semi": true,
+  "singleQuote": true
+}
+```
 3. `Jest - orta.vscode-jest`
    - Orta
 4. `GitLens — Git supercharged - eamodio.gitlens`
