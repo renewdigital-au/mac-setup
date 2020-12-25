@@ -40,9 +40,9 @@
     "prefix": "errhead",
     "body": [
       "---",
-      "title: 'My Title'",
-      "date: '2020-01-01'",
-      "author: 'Author Name'",
+      "title: '${TM_FILENAME_BASE}'",
+      "date: '2019-01-01'",
+      "author: 'Road Runner'",
       "path: '/${TM_FILEPATH}'",
       "---",
       "",
