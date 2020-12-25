@@ -38,7 +38,7 @@
   - for npm globl installs
     - [Second Mac user - npm global installs](../npm-global-second-user/npm-global-second-user.md)
 16. [SSH setup](../ssh-setup/ssh-setup.md)
-17. Setup `jsconfig.json` file in vs code projects
+17. Setup VS Code to jump to webpack alias `~` via `jsconfig.json` file.
   - [jsconfig.json example](../vs-code/jsconfig.json)
 
 ## corp software Setup
