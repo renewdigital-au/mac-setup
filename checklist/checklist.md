@@ -38,5 +38,8 @@
   - for npm globl installs
     - [Second Mac user - npm global installs](../npm-global-second-user/npm-global-second-user.md)
 16. [SSH setup](../ssh-setup/ssh-setup.md)
+17. Setup `jsconfig.json` file in vs code projects
+  - [jsconfig.json example](../vs-code/jsconfig.json)
+
 ## corp software Setup
-1. MS Teams
+1. MS Teams1
