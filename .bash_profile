@@ -22,3 +22,4 @@ export HOMEBREW_NO_ANALYTICS=1
 
 # Python
 alias python='python3'
+alias py='python3'
