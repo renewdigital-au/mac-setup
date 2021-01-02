@@ -23,3 +23,7 @@ export HOMEBREW_NO_ANALYTICS=1
 # Python
 alias python='python3'
 alias py='python3'
+alias allpro='lsof -i tcp'
+# Reqiures jq installed
+alias sct="cat package.json | jq '.scripts'"
+
