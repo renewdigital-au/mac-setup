@@ -148,3 +148,17 @@
 	}
 }
 ```
+
+## `onc` onChange={} - onChange with jsx assignment
+```json
+{
+	"React on change assigned": {
+		"scope": "javascript, javascriptreact, typescript,typescriptreact",
+		"prefix": "onc",
+		"body": [
+			"onChange={$1}",
+		],
+		"description": "onChange ready for jsx assignment"
+	}
+}
+```
