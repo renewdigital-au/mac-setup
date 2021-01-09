@@ -134,7 +134,7 @@
 }
 ```
 
-## `curp` Get current file path
+## `curp` Get current file path, remove up to /content
 
 ```json
 {
@@ -142,9 +142,9 @@
 		"scope": "javascript,typescript,markdown",
 		"prefix": "curp",
 		"body": [
-			"${TM_FILEPATH}$1",
+			"/${TM_FILEPATH/^.*content/content/}$1",
 		],
-		"description": "Get current file path."
+		"description": "remove file path up till /content"
 	}
 }
 ```
