@@ -8,7 +8,7 @@
 3. install vs code
   - remember cli code command
     - [VS Code launch from CLI](../vs-code/launch-from-cli.md)
-4. [] vs-code Keyboard mapping to switch terminals
+4. [] v[s-code Keyboard mapping to switch terminals](../vs-code/keyboard-mapping.md)
 5. setup `.zshrc`
   - see file in root of this repo
   - 
@@ -40,6 +40,7 @@
 16. [SSH setup](../ssh-setup/ssh-setup.md)
 17. Setup VS Code to jump to webpack alias `~` via `jsconfig.json` file.
   - [jsconfig.json example](../vs-code/jsconfig.json)
+18. [stop `.editorconfig` changing single quotes to double.](../vs-code/editorconfig)
 
 ## corp software Setup
 1. MS Teams1
