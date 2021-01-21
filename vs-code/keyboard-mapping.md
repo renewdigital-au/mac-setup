@@ -1,8 +1,9 @@
 # VS code keyboard mapping
 
 ## Map switching between terminals
-- `workbench.action.terminal.focusNext`
-- `workbench.action.terminal.focusPrevious`
+- We will be changing the following settings
+  - `workbench.action.terminal.focusNext`
+  - `workbench.action.terminal.focusPrevious`
 - ~~`kill`~~ TODO
 
 1. `CMD` + `SHIFT` + `P`
@@ -11,11 +12,10 @@
     - `find`
     - `cmd+d`
     - `workbench.action.terminal.focusNext`
-  - you can also click the document arrow around icon
+  - you can also click the document-arrow-around icon
     - to get raw json
 3. Because `workbench.action.terminal.focusNext` does not exist yet
-  - Then type in new binding like a plus icon will be to the righ
-    - click it
+  - Then type in new binding and click like-a-plus-icon (on the right)
 4. hit `CMD+ARROWUP`
   - The source will change to `User` from `Default`
     - you can reset back to default
