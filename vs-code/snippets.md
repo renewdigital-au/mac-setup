@@ -162,3 +162,17 @@
 	}
 }
 ```
+
+## `mlink` Markdown link template to image folder
+```json
+{
+	"Markdown link template to image folder": {
+		"scope": "markdown, text",
+		"prefix": "mlink",
+		"body": [
+			"![$2](./img/$1.png)",
+		],
+		"description": "Markdown link template to image folder"
+	}
+}
+```
