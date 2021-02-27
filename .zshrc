@@ -17,6 +17,7 @@ alias sct="cat package.json | jq '.scripts'"
 alias deps="cat package.json | jq '.dependencies'"
 alias devdeps="cat package.json | jq '.devDependencies'"
 alias pwdc='pwd | pbcopy'
+alias oterm='open -a Terminal .'
 
 export NVM_DIR="$HOME/.nvm"
   . "/usr/local/opt/nvm/nvm.sh"
