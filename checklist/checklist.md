@@ -42,5 +42,7 @@
 18. Setup VS Code to jump to webpack alias `~` via `jsconfig.json` file.
   - [jsconfig.json example](../vs-code/jsconfig.json)
 19. [stop `.editorconfig` changing single quotes to double.](../vs-code/editorconfig)
+20. create bash scripts
+  - [Create Helper Scripts](../scripts)
 ## corp software Setup
 1. MS Teams1
