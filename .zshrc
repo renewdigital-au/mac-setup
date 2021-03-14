@@ -13,6 +13,7 @@ alias zshconf='vim ~/.zshrc'
 alias rmn='rm -rf node_modules/'
 alias ylist='yarn list --depth=0'
 alias ylinks='ll ~/.config/yarn/link/@myscope'
+alias go-ylinks='cd ~/.config/yarn/link'
 alias sct="cat package.json | jq '.scripts'"
 alias deps="cat package.json | jq '.dependencies'"
 alias devdeps="cat package.json | jq '.devDependencies'"
