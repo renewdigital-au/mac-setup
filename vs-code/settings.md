@@ -35,6 +35,7 @@
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
   "editor.detectIndentation": false,
-  "explorer.compactFolders": false
+  "explorer.compactFolders": false,
+  "javascript.suggest.autoImports": false
 }
 ```
