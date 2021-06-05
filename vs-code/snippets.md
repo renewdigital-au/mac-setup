@@ -176,3 +176,17 @@
 	}
 }
 ```
+
+## `mhlnk` Markdown link to http page
+```json
+{
+	"Markdown link template to http page": {
+		"scope": "markdown, text",
+		"prefix": "mhlink",
+		"body": [
+			"[$2]($3)",
+		],
+		"description": "Markdown link to http page"
+	}
+}
+```
