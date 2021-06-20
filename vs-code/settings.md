@@ -24,18 +24,18 @@
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
-  "[yaml]":  {
-		"editor.insertSpaces": true,
-		"editor.tabSize": 2,
-		"editor.autoIndent": false
-	},
-  "prettier.disableLanguages": [
-    "markdown"
-  ],
+  "[yaml]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": false
+  },
+  "prettier.disableLanguages": ["markdown"],
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
   "editor.detectIndentation": false,
   "explorer.compactFolders": false,
-  "javascript.suggest.autoImports": false
+  "javascript.suggest.autoImports": false,
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "javascript.updateImportsOnFileMove.enabled": "never"
 }
 ```
