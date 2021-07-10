@@ -33,11 +33,18 @@ alias gr="git for-each-ref --sort=committerdate refs/heads/ --format='%(HEAD) %(
 alias gb='git branch'
 alias gl='git log --decorate --oneline --graph --all'
 alias gs='git status'
+alias gcm='git checkout master'
+alias grv='git remote -v'
+alias gbvv='git branch -vv'
+alias gbv='git branch -v'
+alias gpom='git pull origin master'
+
 
 # yarn 
 alias ylist='yarn list --depth=0'
 alias ylinks='ll ~/.config/yarn/link/@myscope'
 alias go-ylinks='cd ~/.config/yarn/link'
+alias del-ylinks='rm -rf ~/.config/yarn/link/\@icare'
 
 alias topy='top -o time -user $(whoami)'
 alias zshconf='vim ~/.zshrc'
