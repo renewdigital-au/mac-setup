@@ -1,28 +1,26 @@
 export PROMPT='%n:%~/$ '
 
 # mac
-onport=lsof
-on8080=lsof -i tcp:8080
+alias onport=lsof
+alias on8080=lsof -i tcp:8080
 # AWS
-aws-cf-gack='export AWS_PROFILE=cloud-man-profile  && aws cloudformation describe-stack-resources --stack-name my-stack-name'
-aws-cf-gack-file='export AWS_PROFILE=cloud-man-profile && aws cloudformation describe-stack-resources --stack-name my-stack-name > stack_my-stack-name'
+alias aws-cf-gack='export AWS_PROFILE=cloud-man-profile  && aws cloudformation describe-stack-resources --stack-name my-stack-name'
+alias aws-cf-gack-file='export AWS_PROFILE=cloud-man-profile && aws cloudformation describe-stack-resources --stack-name my-stack-name > stack_my-stack-name'
 
-aws-cf-valid='export AWS_PROFILE=cloud-man-profile && aws cloudformation validate-template --template-body'
-aws-cf-valid-sls='export AWS_PROFILE=cloud-man-profile && aws cloudformation validate-template --template-body file://./.serverless/cloudformation-template-update-stack.json'
-aws-cli-cred='echo "===============================" && cat ~/.aws/config && echo "=============================" && cat ~/.aws/credentials  && echo "============================="'
+alias aws-cf-valid='export AWS_PROFILE=cloud-man-profile && aws cloudformation validate-template --template-body'
+alias aws-cf-valid-sls='export AWS_PROFILE=cloud-man-profile && aws cloudformation validate-template --template-body file://./.serverless/cloudformation-template-update-stack.json'
+alias aws-cli-cred='echo "===============================" && cat ~/.aws/config && echo "=============================" && cat ~/.aws/credentials  && echo "============================="'
 
 # npm package.json
-sct='cat package.json | jq '\''.scripts'\'
-deps='cat package.json | jq '\''.dependencies'\'
-devdeps='cat package.json | jq '\''.devDependencies'\'
+alias sct='cat package.json | jq '\''.scripts'\'
+alias deps='cat package.json | jq '\''.dependencies'\'
+alias devdeps='cat package.json | jq '\''.devDependencies'\'
 
 # npm 
-nr='npm run'
-
+alias nr='npm run'
 
 # docker
-dkrmon='docker run -it -p 27017:27017 -v ~/data:/data/db mongo'
-
+alias dkrmon='docker run -it -p 27017:27017 -v ~/data:/data/db mongo'
 
 alias ll='ls -lah'
 alias dkr='docker'
