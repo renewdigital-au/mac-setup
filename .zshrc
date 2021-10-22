@@ -32,6 +32,7 @@ alias gr="git for-each-ref --sort=committerdate refs/heads/ --format='%(HEAD) %(
 alias gb='git branch'
 alias gl='git log --decorate --oneline --graph --all'
 alias gs='git status'
+alias gc='git checkout'
 alias gcm='git checkout master'
 alias grv='git remote -v'
 alias gbvv='git branch -vv'
