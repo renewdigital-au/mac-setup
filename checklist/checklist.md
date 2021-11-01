@@ -44,5 +44,8 @@
 19. [stop `.editorconfig` changing single quotes to double.](../vs-code/editorconfig)
 20. create bash scripts
   - [Create Helper Scripts](../scripts)
+21. show hidden files in Finder
+  - `defaults write com.apple.finder AppleShowAllFiles YES`
+
 ## corp software Setup
 1. MS Teams1
