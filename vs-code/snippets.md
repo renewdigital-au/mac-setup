@@ -190,3 +190,21 @@
   }
 }
 ```
+
+## `pnts` create 5 markdown bullet points.
+```json
+{
+	"Create markdown bullet points": {
+		"scope": "markdown",
+		"prefix": "pnts",
+		"body": [
+			"- ",
+			"- ",
+			"- ",
+			"- ",
+			"- "
+		],
+		"description": "create 5 markdown bullet ponts"
+	}
+}
+```
