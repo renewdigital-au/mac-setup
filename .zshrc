@@ -39,6 +39,9 @@ alias gbvv='git branch -vv'
 alias gbv='git branch -v'
 alias gpom='git pull origin master'
 
+# dig
+alias digq='dig @9.9.9.9'
+
 
 # yarn 
 alias ylist='yarn list --depth=0'
