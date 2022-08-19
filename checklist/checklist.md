@@ -46,6 +46,8 @@
   - [Create Helper Scripts](../scripts)
 21. show hidden files in Finder
   - `defaults write com.apple.finder AppleShowAllFiles YES`
+22. setup nvm via brew
+  - ![nvm setup](../nvm/nvm-setup.md)
 
 ## corp software Setup
 1. MS Teams1
