@@ -48,6 +48,10 @@
   - `defaults write com.apple.finder AppleShowAllFiles YES`
 22. setup nvm via brew
   - ![nvm setup](../nvm/nvm-setup.md)
+23. postman setup via brew
+  - ``
+  - setup SSL certs
+    - both **client** and server if needed
 
 ## corp software Setup
 1. MS Teams1

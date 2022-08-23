@@ -19,6 +19,9 @@ alias devdeps='cat package.json | jq '\''.devDependencies'\'
 # npm 
 alias nr='npm run'
 
+# nvm
+alias nvu='nvm use'
+
 # docker
 alias dkrmon='docker run -it -p 27017:27017 -v ~/data:/data/db mongo'
 
