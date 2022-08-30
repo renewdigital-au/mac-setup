@@ -37,6 +37,7 @@
   "javascript.suggest.autoImports": false,
   "typescript.updateImportsOnFileMove.enabled": "never",
   "javascript.updateImportsOnFileMove.enabled": "never",
-  "workbench.editor.showTabs": true
+  "workbench.editor.showTabs": true,
+  "[vue]": {"editor.defaultFormatter": "Vue.volar"}
 }
 ```

@@ -9,7 +9,8 @@
   - remember cli code command
     - [VS Code launch from CLI](../vs-code/launch-from-cli.md)
 4. [] [vs-code Keyboard mapping to switch terminals](../vs-code/keyboard-mapping.md)
-5. [vs-code Reveal plugin](../vs-code/reveal-active-file/reveal-active-file.md)
+5. [vs-code Plugins](../vs-code/plugins.md)
+  - [vs-code Reveal plugin](../vs-code/reveal-active-file/reveal-active-file.md)
 6. setup `.zshrc`
   - see file in root of this repo
   - 
@@ -52,6 +53,7 @@
   - ``
   - setup SSL certs
     - both **client** and server if needed
-
+24. vue cli install:
+  - `brew install vue-cli`
 ## corp software Setup
 1. MS Teams1
