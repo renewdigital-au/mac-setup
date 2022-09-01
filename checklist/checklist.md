@@ -8,6 +8,7 @@
 3. install vs code
   - remember cli code command
     - [VS Code launch from CLI](../vs-code/launch-from-cli.md)
+    - [Snippets](../vs-code/snippets.md)
 4. [] [vs-code Keyboard mapping to switch terminals](../vs-code/keyboard-mapping.md)
 5. [vs-code Plugins](../vs-code/plugins.md)
   - [vs-code Reveal plugin](../vs-code/reveal-active-file/reveal-active-file.md)

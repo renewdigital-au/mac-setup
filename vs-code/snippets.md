@@ -208,3 +208,39 @@
 	}
 }
 ```
+
+## `vc` vue component template
+```json
+{
+	"Print to console": {
+		"scope": "vue",
+		"prefix": "vc",
+		"body": [
+			"<template>",
+       "  <div class=\"$TM_FILENAME_BASE\">",
+      "     $1",
+      "  </div>",
+      "</template>",
+      " ",
+      "<script>",
+      "  export default {",
+      "    name: '$TM_FILENAME_BASE',",
+      "    components: {},",
+      "    props: {",
+      "      score: {type: Number}",
+      "    },",
+      "    data: ()=> {",
+      "      return {}",
+      "    },",
+      "    methods: {},",
+      "  }",
+      "</script>",
+      " ",
+      "<style scoped>",
+      " ",
+      "</style>"
+		],
+		"description": "vuejs component"
+	}
+}
+```
