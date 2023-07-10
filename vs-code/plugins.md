@@ -61,8 +61,13 @@
 - Mehmet Yatkı
 
 14. `Reveal`
-
 - [Reveal](https://marketplace.visualstudio.com/items?itemName=smulyono.reveal)
+
 
 15. Vue Language Features (Volar)
 - [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+
+
+16. HashiCorp Terraform
+- [HasiCorp Terraform] https://marketplace.visualstudio.com/items?itemName=HashiCorp.terraform
+

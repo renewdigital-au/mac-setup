@@ -5,6 +5,8 @@
 2. [ ] Setup bluetooth connections
   - Headphones
   - Mouse
+3. increase mouse pointer size
+  - Accessibility >> Display >> Pointer >> Pointer Size
 3. install vs code
   - remember cli code command
     - [VS Code launch from CLI](../vs-code/launch-from-cli.md)
