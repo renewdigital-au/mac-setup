@@ -54,6 +54,7 @@ alias del-ylinks='rm -rf ~/.config/yarn/link/\@myscope'
 
 alias topy='top -o time -user $(whoami)'
 alias zshconf='vim ~/.zshrc'
+alias shconf='vim ~/.zshrc'
 alias rmn='rm -rf node_modules/'
 
 alias sct="cat package.json | jq '.scripts'"
