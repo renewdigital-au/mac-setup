@@ -41,6 +41,7 @@ alias grv='git remote -v'
 alias gbvv='git branch -vv'
 alias gbv='git branch -v'
 alias gpom='git pull origin master'
+gph='git pull origin $(git rev-parse --abbrev-ref HEAD)'
 
 # dig
 alias digq='dig @9.9.9.9'
